@@ -65,3 +65,26 @@ Course intro
 - Encapsulating / Decapsulating example with Cisco Packet Tracer
 - Well-known ports: depending on the service, there are some standard ports (i.e. TCP port 80 for HTTP servers, UDP port 53 for DNS servers)
 
+# Lesson 5, 6 and 7
+
+- Home internet modems usually have multiple functionalities, including router, switch, signal modulation, etc.
+- Ethernet Protocol: defines communication within a LAN network
+  - it operates on layers 1 and 2
+  - IEEE 802.3: wired networks
+  - IEEE 802.11: wireless networks
+- in cabled networks, cables can have different lengths, composition and supported speed:
+  - Standard ETHERNET cables support up to 10Mbps
+  - Fast ETHERNET: 100Mbps
+  - Gigabit ETHERNET: 1,000Mbps
+  - Ten Gigabit ETHERNET: 10Gbps
+- Data is transmitted in binary format (1 or0) by using high/low voltage in the cable
+- One of the most common cables is called UTP: Unshielded Twist Pair:
+  - unshielded means that there is no extra protection on the cable
+  - 8 wires are paired and twisted together
+  - the pairing and twisting helps reducing crosstalk effect, when cables interfere with each other
+  - at the extremities, cables have connectors. The most common are RJ-45 (standard ETHERNET)
+  - the extremities then organize the 8 wires into pins, in the pinout. Each pin is responsible for either sending or receiving data, since the ETHERNET cable is bidirectional
+  - for ETHERNET and Fast ETHERNET cables, only pins 1,2,3,6 are used
+  - the connection from cable to pinout is of 2 types: Straight-Through or Crossover
+  - You use the Straight-Through to connect devices that have opposite action on the same pin (i.e. Pin 1 sends data in device A and receives data in device B) 
+  - You use the Cross-Over when you want to connect similar devices, that on the same pin they perform the same action (send or receive)
