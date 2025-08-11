@@ -59,3 +59,9 @@ Course intro
       - The Transport Layer in A adds its own header/trailer and passes the new payload to the Network Layer.
       - This process continues down to the Physical Layer (encapsulation).
       - The payload is transmitted to the Physical Layer in B, which begins the decapsulation process: unpacking the headers/trailers and passing the data up the stack until it reaches the originating layer.
+
+# Lesson 4
+
+- Encapsulating / Decapsulating example with Cisco Packet Tracer
+- Well-known ports: depending on the service, there are some standard ports (i.e. TCP port 80 for HTTP servers, UDP port 53 for DNS servers)
+
